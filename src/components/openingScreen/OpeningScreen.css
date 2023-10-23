@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url(https://db.onlinewebfonts.com/c/11ed945e5eb3603dcbdd99a186bbd7c8?family=Redaction);
+@import url(https://db.onlinewebfonts.com/c/4ac16e1b19e65fe34303a300e830096b?family=Redaction+100);
+@import url('https://fonts.cdnfonts.com/css/zx-spectrum-7');
+body {
+  font-family: 'ZX Spectrum-7','Inter';
+  background-color: black;
+}
+
+.opening-screen__wrapper {
+  padding: 20px;
+}
+
+.opening-screen__box {
+  position: absolute;
+  height: 100%;
+  width: 33.333%;
+  background: white;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+.opening-screen__box2 {
+  position: absolute;
+  height: 100%;
+  width: 33.333%;
+  background: white;
+  bottom: 0;
+  left: 33.33%;
+  right: 0;
+  overflow: hidden;
+}
+.opening-screen__box3 {
+  position: absolute;
+  height: 100%;
+  width: 33.333%;
+  background: white;
+  bottom: 0;
+  left: 66.66%;
+  right: 0;
+  overflow: hidden;
+}
+.opening-screen__text {
+  font-size: 2rem;
+  line-height: 0.2rem;
+  /* font-weight: 700; */
+  z-index: 10;
+  color: white;
+  mix-blend-mode: difference;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.opening-screen__text span {
+  position: absolute;
+}
