@@ -9,16 +9,20 @@ export default function OpeningScreen() {
   const textRef1 = React.useRef();
   const textRef2 = React.useRef();
   const textRef3 = React.useRef();
+  const textRef4 = React.useRef();
+  const textRef5 = React.useRef();
+
   const boxRef1 = React.useRef();
   const boxRef2 = React.useRef();
   const boxRef3 = React.useRef();
   // typically it's best to useLayoutEffect() instead of useEffect() to have React render the initial state properly from the very start. https://gsap.com/community/forums/topic/35570-elements-return-to-their-start-position-when-they-should-stay/
   React.useLayoutEffect(() => {
-    const textRefs = [textRef1.current, textRef2.current, textRef3.current];
     const textSpanRefs = [
-      gsap.utils.selector(textRef1.current)('span'), 
-      gsap.utils.selector(textRef2.current)('span'), 
-      gsap.utils.selector(textRef3.current)('span')
+      gsap.utils.selector(textRef1.current)("span"),
+      gsap.utils.selector(textRef2.current)("span"),
+      gsap.utils.selector(textRef3.current)("span"),
+      gsap.utils.selector(textRef4.current)("span"),
+      gsap.utils.selector(textRef5.current)("span"),
     ];
     const boxRefs = [boxRef1.current, boxRef2.current, boxRef3.current];
 
@@ -60,21 +64,8 @@ export default function OpeningScreen() {
               onComplete={() => ({ shouldRepeat: true, delay: 3 })}
             />
           </span>
-          
         </div>
         <div className="opening-screen__text" ref={textRef2}>
-            <span>
-              <RandomReveal
-                isPlaying
-                duration={1}
-                revealDuration={1.5}
-                characters="development development development"
-                characterSet={["?", ">", "<", "$", "%", "#", "*", "!"]}
-                onComplete={() => ({ shouldRepeat: true, delay: 3 })}
-              />
-            </span>
-          </div>
-            <div className="opening-screen__text" ref={textRef3}>
           <span>
             <RandomReveal
               isPlaying
@@ -86,9 +77,51 @@ export default function OpeningScreen() {
             />
           </span>
         </div>
-        <div className="opening-screen__box" ref={boxRef1}>[01]</div>
-        <div className="opening-screen__box2" ref={boxRef2}>[02]</div>
-        <div className="opening-screen__box3" ref={boxRef3}>[03]</div>
+        <div className="opening-screen__text" ref={textRef3}>
+          <span>
+            <RandomReveal
+              isPlaying
+              duration={1}
+              revealDuration={1.5}
+              characters="development development development"
+              characterSet={["?", ">", "<", "$", "%", "#", "*", "!"]}
+              onComplete={() => ({ shouldRepeat: true, delay: 3 })}
+            />
+          </span>
+        </div>
+        <div className="opening-screen__text" ref={textRef4}>
+          <span>
+            <RandomReveal
+              isPlaying
+              duration={1}
+              revealDuration={1.5}
+              characters="design design design"
+              characterSet={["?", ">", "<", "$", "%", "#", "*", "!"]}
+              onComplete={() => ({ shouldRepeat: true, delay: 3 })}
+            />
+          </span>
+        </div>
+        <div className="opening-screen__text" ref={textRef5}>
+          <span>
+            <RandomReveal
+              isPlaying
+              duration={1}
+              revealDuration={1.5}
+              characters="design design design"
+              characterSet={["?", ">", "<", "$", "%", "#", "*", "!"]}
+              onComplete={() => ({ shouldRepeat: true, delay: 3 })}
+            />
+          </span>
+        </div>
+        <div className="opening-screen__box" ref={boxRef1}>
+          [01]
+        </div>
+        <div className="opening-screen__box2" ref={boxRef2}>
+          [02]
+        </div>
+        <div className="opening-screen__box3" ref={boxRef3}>
+          [03]
+        </div>
       </div>
     </div>
   );
