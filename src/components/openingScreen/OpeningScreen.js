@@ -11,6 +11,7 @@ export default function OpeningScreen() {
   const textRef3 = React.useRef();
   const textRef4 = React.useRef();
   const textRef5 = React.useRef();
+  const textRef6 = React.useRef();
 
   const boxRef1 = React.useRef();
   const boxRef2 = React.useRef();
@@ -21,15 +22,19 @@ export default function OpeningScreen() {
       gsap.utils.selector(textRef1.current)("span"),
       gsap.utils.selector(textRef2.current)("span"),
       gsap.utils.selector(textRef3.current)("span"),
+    ];
+    const designSpanRefs = [
       gsap.utils.selector(textRef4.current)("span"),
       gsap.utils.selector(textRef5.current)("span"),
+      gsap.utils.selector(textRef6.current)("span"),
     ];
+    const allSpanRefs = [...textSpanRefs, ...designSpanRefs];
     const boxRefs = [boxRef1.current, boxRef2.current, boxRef3.current];
 
     // context which works around the useEffect running TWICE and breaking animations logic
     let ctx = gsap.context(() => {
       // all your GSAP animation code here
-      tl.from(textSpanRefs, {
+      tl.from(allSpanRefs, {
         y: 100,
         skewY: 7,
         ease: "power4.out",
@@ -37,15 +42,19 @@ export default function OpeningScreen() {
       })
         .to(boxRefs, 1.5, {
           height: 0,
-          ease: "expo.inOut",
+          ease: "power2.inOut",
           stagger: 0.1,
         })
-        .to(textSpanRefs, 1.5, {
-          duration: 1.5,
+        .to(textSpanRefs, 2.5, {
           x: 100,
           autoAlpha: 0,
           stagger: 0.2,
-        });
+        }, "-=1.9")
+        .to(designSpanRefs, 2.5, {
+          x: -100,
+          autoAlpha: 0,
+          stagger: 0.2,
+        }, "-=1.8");
     });
     return () => ctx.revert(); // <- cleanup!
   }, []);
@@ -89,7 +98,7 @@ export default function OpeningScreen() {
             />
           </span>
         </div>
-        <div className="opening-screen__text" ref={textRef4}>
+        <div className="opening-screen__design break" ref={textRef4}>
           <span>
             <RandomReveal
               isPlaying
@@ -101,7 +110,19 @@ export default function OpeningScreen() {
             />
           </span>
         </div>
-        <div className="opening-screen__text" ref={textRef5}>
+        <div className="opening-screen__design" ref={textRef5}>
+          <span>
+            <RandomReveal
+              isPlaying
+              duration={1}
+              revealDuration={1.5}
+              characters="design design design"
+              characterSet={["?", ">", "<", "$", "%", "#", "*", "!"]}
+              onComplete={() => ({ shouldRepeat: true, delay: 3 })}
+            />
+          </span>
+        </div>
+        <div className="opening-screen__design" ref={textRef6}>
           <span>
             <RandomReveal
               isPlaying

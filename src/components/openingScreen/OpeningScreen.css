@@ -42,7 +42,7 @@ body {
   overflow: hidden;
 }
 .opening-screen__text {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 0.2rem;
   /* font-weight: 700; */
   z-index: 10;
@@ -51,8 +51,32 @@ body {
   height: 20px;
   position: relative;
   overflow: hidden;
+  top: 20vh;
 }
 
 .opening-screen__text span {
   position: absolute;
+  left: 10%;
+}
+
+.opening-screen__design {
+  font-size: 1.5rem;
+  line-height: 0.2rem;
+  /* font-weight: 700; */
+  z-index: 10;
+  color: white;
+  mix-blend-mode: difference;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  top: 25vh;
+}
+
+.opening-screen__design span {
+  position: absolute;
+  left: 40%;
+}
+
+.break {
+  margin-top: 50px; 
 }
