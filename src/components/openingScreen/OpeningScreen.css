@@ -77,6 +77,24 @@ body {
   left: 40%;
 }
 
+.opening-screen__web {
+  font-size: 1.5rem;
+  line-height: 0.2rem;
+  /* font-weight: 700; */
+  z-index: 10;
+  color: white;
+  mix-blend-mode: difference;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  top: 30vh;
+}
+
+.opening-screen__web span {
+  position: absolute;
+  left: 25%;
+}
+
 .break {
   margin-top: 50px; 
 }
