@@ -41,7 +41,7 @@ body {
   right: 0;
   overflow: hidden;
 }
-.opening-screen__text {
+.opening-screen__first {
   font-size: 1.5rem;
   line-height: 0.2rem;
   /* font-weight: 700; */
@@ -53,13 +53,13 @@ body {
   overflow: hidden;
   top: 20vh;
 }
-
-.opening-screen__text span {
+/* add media queries */
+.opening-screen__first span {
   position: absolute;
-  left: 10%;
+  left: 25%;
 }
 
-.opening-screen__design {
+.opening-screen__middle {
   font-size: 1.5rem;
   line-height: 0.2rem;
   /* font-weight: 700; */
@@ -72,7 +72,25 @@ body {
   top: 25vh;
 }
 
-.opening-screen__design span {
+.opening-screen__middle span {
+  position: absolute;
+  left: 45%;
+}
+
+.opening-screen__last {
+  font-size: 1.5rem;
+  line-height: 0.2rem;
+  /* font-weight: 700; */
+  z-index: 10;
+  color: white;
+  mix-blend-mode: difference;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  top: 25vh;
+}
+
+.opening-screen__last span {
   position: absolute;
   left: 40%;
 }
