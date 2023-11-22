@@ -42,13 +42,13 @@ body {
   overflow: hidden;
 }
 .opening-screen__first {
-  font-size: 1.5rem;
-  line-height: 0.2rem;
+  font-size: 4.0rem;
+  line-height: 0.8rem;
   /* font-weight: 700; */
   z-index: 10;
   color: white;
   mix-blend-mode: difference;
-  height: 20px;
+  height: 40px;
   position: relative;
   overflow: hidden;
   top: 20vh;
@@ -56,17 +56,17 @@ body {
 /* add media queries */
 .opening-screen__first span {
   position: absolute;
-  left: 25%;
+  left: 15%;
 }
 
 .opening-screen__middle {
-  font-size: 1.5rem;
-  line-height: 0.2rem;
+  font-size: 4.0rem;
+  line-height: 0.8rem;
   /* font-weight: 700; */
   z-index: 10;
   color: white;
   mix-blend-mode: difference;
-  height: 20px;
+  height: 40px;
   position: relative;
   overflow: hidden;
   top: 25vh;
@@ -78,16 +78,16 @@ body {
 }
 
 .opening-screen__last {
-  font-size: 1.5rem;
-  line-height: 0.2rem;
+  font-size: 4.0rem;
+  line-height: 0.8rem;
   /* font-weight: 700; */
   z-index: 10;
   color: white;
   mix-blend-mode: difference;
-  height: 20px;
+  height: 40px;
   position: relative;
   overflow: hidden;
-  top: 25vh;
+  top: 30vh;
 }
 
 .opening-screen__last span {

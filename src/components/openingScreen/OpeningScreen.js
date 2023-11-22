@@ -100,7 +100,7 @@ export default function OpeningScreen() {
               isPlaying
               duration={1}
               revealDuration={1.5}
-              characters="welcome welcome welcome"
+              characters="welcome! welcome! welcome!"
               characterSet={["?", ">", "<", "$", "%", "#", "*", "!"]}
               onComplete={() => ({ shouldRepeat: true, delay: 3 })}
             />
@@ -124,7 +124,7 @@ export default function OpeningScreen() {
               isPlaying
               duration={1}
               revealDuration={1.5}
-              characters="welcome?! welcome?! welcome?!"
+              characters="welcome! welcome! welcome!"
               characterSet={["?", ">", "<", "$", "%", "#", "*", "!"]}
               onComplete={() => ({ shouldRepeat: true, delay: 3 })}
             />
@@ -174,7 +174,7 @@ export default function OpeningScreen() {
               isPlaying
               duration={1}
               revealDuration={1.5}
-              characters="uhh.. okay.."
+              characters="uhh.. okay?"
               characterSet={["?", ">", "<", "$", "%", "#", "*", "!"]}
               onComplete={() => ({ shouldRepeat: true, delay: 3 })}
             />
@@ -186,7 +186,7 @@ export default function OpeningScreen() {
               isPlaying
               duration={1}
               revealDuration={1.5}
-              characters="okay?!"
+              characters="okay!!!"
               characterSet={["?", ">", "<", "$", "%", "#", "*", "!"]}
               onComplete={() => ({ shouldRepeat: true, delay: 3 })}
             />
