@@ -1,7 +1,7 @@
-import React from "react";
-import { RandomReveal } from "react-random-reveal";
-import gsap from "gsap";
-import "./OpeningScreen.css";
+import React from 'react';
+import { RandomReveal } from 'react-random-reveal';
+import gsap from 'gsap';
+import './OpeningScreen.css';
 
 let tl = gsap.timeline();
 
@@ -15,6 +15,9 @@ export default function OpeningScreen() {
   const textRef7 = React.useRef();
   const textRef8 = React.useRef();
   const textRef9 = React.useRef();
+  const textRef7 = React.useRef();
+  const textRef8 = React.useRef();
+  const textRef9 = React.useRef();
 
   const boxRef1 = React.useRef();
   const boxRef2 = React.useRef();
@@ -22,14 +25,14 @@ export default function OpeningScreen() {
   // typically it's best to useLayoutEffect() instead of useEffect() to have React render the initial state properly from the very start. https://gsap.com/community/forums/topic/35570-elements-return-to-their-start-position-when-they-should-stay/
   React.useLayoutEffect(() => {
     const textSpanRefs = [
-      gsap.utils.selector(textRef1.current)("span"),
-      gsap.utils.selector(textRef2.current)("span"),
-      gsap.utils.selector(textRef3.current)("span"),
+      gsap.utils.selector(textRef1.current)('span'),
+      gsap.utils.selector(textRef2.current)('span'),
+      gsap.utils.selector(textRef3.current)('span'),
     ];
     const designSpanRefs = [
-      gsap.utils.selector(textRef4.current)("span"),
-      gsap.utils.selector(textRef5.current)("span"),
-      gsap.utils.selector(textRef6.current)("span"),
+      gsap.utils.selector(textRef4.current)('span'),
+      gsap.utils.selector(textRef5.current)('span'),
+      gsap.utils.selector(textRef6.current)('span'),
     ];
     const lastSpanRefs = [
       gsap.utils.selector(textRef7.current)("span"),
@@ -45,12 +48,12 @@ export default function OpeningScreen() {
       tl.from(allSpanRefs, {
         y: 100,
         skewY: 7,
-        ease: "power4.out",
+        ease: 'power4.out',
         duration: 1.5,
       })
         .to(boxRefs, 1.5, {
           height: 0,
-          ease: "power2.inOut",
+          ease: 'power2.inOut',
           stagger: 0.1,
           duration: 3.5,
         })
@@ -92,7 +95,7 @@ export default function OpeningScreen() {
   }, []);
 
   return (
-    <div className="opening-screen__wrapper">
+    <div className='opening-screen__wrapper'>
       <div>
         <div className="opening-screen__first" ref={textRef1}>
           <span>
@@ -204,13 +207,13 @@ export default function OpeningScreen() {
             />
           </span>
         </div>
-        <div className="opening-screen__box" ref={boxRef1}>
+        <div className='opening-screen__box' ref={boxRef1}>
           [01]
         </div>
-        <div className="opening-screen__box2" ref={boxRef2}>
+        <div className='opening-screen__box2' ref={boxRef2}>
           [02]
         </div>
-        <div className="opening-screen__box3" ref={boxRef3}>
+        <div className='opening-screen__box3' ref={boxRef3}>
           [03]
         </div>
       </div>
