@@ -12,6 +12,7 @@ body {
 }
 
 .opening-screen__box {
+  font-size: 4.0rem;
   position: absolute;
   height: 100%;
   width: 33.333%;
@@ -22,6 +23,7 @@ body {
   overflow: hidden;
 }
 .opening-screen__box2 {
+  font-size: 4.0rem;
   position: absolute;
   height: 100%;
   width: 33.333%;
@@ -32,6 +34,7 @@ body {
   overflow: hidden;
 }
 .opening-screen__box3 {
+  font-size: 4.0rem;
   position: absolute;
   height: 100%;
   width: 33.333%;
