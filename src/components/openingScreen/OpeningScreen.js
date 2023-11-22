@@ -15,9 +15,6 @@ export default function OpeningScreen() {
   const textRef7 = React.useRef();
   const textRef8 = React.useRef();
   const textRef9 = React.useRef();
-  const textRef7 = React.useRef();
-  const textRef8 = React.useRef();
-  const textRef9 = React.useRef();
 
   const boxRef1 = React.useRef();
   const boxRef2 = React.useRef();
