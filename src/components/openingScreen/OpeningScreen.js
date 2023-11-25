@@ -32,9 +32,9 @@ export default function OpeningScreen() {
       gsap.utils.selector(textRef6.current)('span'),
     ];
     const lastSpanRefs = [
-      gsap.utils.selector(textRef7.current)("span"),
-      gsap.utils.selector(textRef8.current)("span"),
-      gsap.utils.selector(textRef9.current)("span"),
+      gsap.utils.selector(textRef7.current)('span'),
+      gsap.utils.selector(textRef8.current)('span'),
+      gsap.utils.selector(textRef9.current)('span'),
     ];
     const allSpanRefs = [...textSpanRefs, ...designSpanRefs, ...lastSpanRefs];
     const boxRefs = [boxRef1.current, boxRef2.current, boxRef3.current];
@@ -61,9 +61,9 @@ export default function OpeningScreen() {
             x: 100,
             autoAlpha: 0,
             stagger: 0.2,
-            ease: "expo.in",
+            ease: 'expo.in',
           },
-          "-=1.2"
+          '-=1.2'
         )
         .to(
           designSpanRefs,
@@ -72,9 +72,9 @@ export default function OpeningScreen() {
             x: -100,
             autoAlpha: 0,
             stagger: 0.2,
-            ease: "expo.in",
+            ease: 'expo.in',
           },
-          "-=1.0"
+          '-=1.0'
         )
         .to(
           lastSpanRefs,
@@ -83,9 +83,9 @@ export default function OpeningScreen() {
             x: 100,
             autoAlpha: 0,
             stagger: 0.2,
-            ease: "expo.in",
+            ease: 'expo.in',
           },
-          "-=1.5"
+          '-=1.5'
         );
     });
     return () => ctx.revert(); // <- cleanup!
@@ -94,124 +94,124 @@ export default function OpeningScreen() {
   return (
     <div className='opening-screen__wrapper'>
       <div>
-        <div className="opening-screen__first" ref={textRef1}>
+        <div className='opening-screen__first' ref={textRef1}>
           <span>
             <RandomReveal
               isPlaying
               duration={1}
               revealDuration={1.5}
-              characters="welcome! welcome! welcome!"
-              characterSet={["?", ">", "<", "$", "%", "#", "*", "!"]}
+              characters='welcome! welcome! welcome!'
+              characterSet={['?', '>', '<', '$', '%', '#', '*', '!']}
               onComplete={() => ({ shouldRepeat: true, delay: 3 })}
             />
           </span>
         </div>
-        <div className="opening-screen__first" ref={textRef2}>
+        <div className='opening-screen__first' ref={textRef2}>
           <span>
             <RandomReveal
               isPlaying
               duration={1}
               revealDuration={1.5}
-              characters="welcome! welcome! welcome!"
-              characterSet={["?", ">", "<", "$", "%", "#", "*", "!"]}
+              characters='welcome! welcome! welcome!'
+              characterSet={['?', '>', '<', '$', '%', '#', '*', '!']}
               onComplete={() => ({ shouldRepeat: true, delay: 3 })}
             />
           </span>
         </div>
-        <div className="opening-screen__first" ref={textRef3}>
+        <div className='opening-screen__first' ref={textRef3}>
           <span>
             <RandomReveal
               isPlaying
               duration={1}
               revealDuration={1.5}
-              characters="welcome! welcome! welcome!"
-              characterSet={["?", ">", "<", "$", "%", "#", "*", "!"]}
-              onComplete={() => ({ shouldRepeat: true, delay: 3 })}
-            />
-          </span>
-        </div>
-        {/* ==================================================== */}
-        <div className="opening-screen__middle break" ref={textRef4}>
-          <span>
-            <RandomReveal
-              isPlaying
-              duration={1}
-              revealDuration={1.5}
-              characters="to my website"
-              characterSet={["?", ">", "<", "$", "%", "#", "*", "!"]}
-              onComplete={() => ({ shouldRepeat: true, delay: 3 })}
-            />
-          </span>
-        </div>
-        <div className="opening-screen__middle" ref={textRef5}>
-          <span>
-            <RandomReveal
-              isPlaying
-              duration={1}
-              revealDuration={1.5}
-              characters="to my website"
-              characterSet={["?", ">", "<", "$", "%", "#", "*", "!"]}
-              onComplete={() => ({ shouldRepeat: true, delay: 3 })}
-            />
-          </span>
-        </div>
-        <div className="opening-screen__middle" ref={textRef6}>
-          <span>
-            <RandomReveal
-              isPlaying
-              duration={1}
-              revealDuration={1.5}
-              characters="to my website"
-              characterSet={["?", ">", "<", "$", "%", "#", "*", "!"]}
+              characters='welcome! welcome! welcome!'
+              characterSet={['?', '>', '<', '$', '%', '#', '*', '!']}
               onComplete={() => ({ shouldRepeat: true, delay: 3 })}
             />
           </span>
         </div>
         {/* ==================================================== */}
-        <div className="opening-screen__last break" ref={textRef7}>
+        <div className='opening-screen__middle break' ref={textRef4}>
           <span>
             <RandomReveal
               isPlaying
               duration={1}
               revealDuration={1.5}
-              characters="uhh.. okay?"
-              characterSet={["?", ">", "<", "$", "%", "#", "*", "!"]}
+              characters='to my website'
+              characterSet={['?', '>', '<', '$', '%', '#', '*', '!']}
               onComplete={() => ({ shouldRepeat: true, delay: 3 })}
             />
           </span>
         </div>
-        <div className="opening-screen__last" ref={textRef8}>
+        <div className='opening-screen__middle' ref={textRef5}>
           <span>
             <RandomReveal
               isPlaying
               duration={1}
               revealDuration={1.5}
-              characters="okay!!!"
-              characterSet={["?", ">", "<", "$", "%", "#", "*", "!"]}
+              characters='to my website'
+              characterSet={['?', '>', '<', '$', '%', '#', '*', '!']}
               onComplete={() => ({ shouldRepeat: true, delay: 3 })}
             />
           </span>
         </div>
-        <div className="opening-screen__last" ref={textRef9}>
+        <div className='opening-screen__middle' ref={textRef6}>
           <span>
             <RandomReveal
               isPlaying
               duration={1}
               revealDuration={1.5}
-              characters="okay..."
-              characterSet={["?", ">", "<", "$", "%", "#", "*", "!"]}
+              characters='to my website'
+              characterSet={['?', '>', '<', '$', '%', '#', '*', '!']}
+              onComplete={() => ({ shouldRepeat: true, delay: 3 })}
+            />
+          </span>
+        </div>
+        {/* ==================================================== */}
+        <div className='opening-screen__last break' ref={textRef7}>
+          <span>
+            <RandomReveal
+              isPlaying
+              duration={1}
+              revealDuration={1.5}
+              characters='uhh.. okay?'
+              characterSet={['?', '>', '<', '$', '%', '#', '*', '!']}
+              onComplete={() => ({ shouldRepeat: true, delay: 3 })}
+            />
+          </span>
+        </div>
+        <div className='opening-screen__last' ref={textRef8}>
+          <span>
+            <RandomReveal
+              isPlaying
+              duration={1}
+              revealDuration={1.5}
+              characters='uhh.. okay?'
+              characterSet={['?', '>', '<', '$', '%', '#', '*', '!']}
+              onComplete={() => ({ shouldRepeat: true, delay: 3 })}
+            />
+          </span>
+        </div>
+        <div className='opening-screen__last' ref={textRef9}>
+          <span>
+            <RandomReveal
+              isPlaying
+              duration={1}
+              revealDuration={1.5}
+              characters='uhh.. okay?'
+              characterSet={['?', '>', '<', '$', '%', '#', '*', '!']}
               onComplete={() => ({ shouldRepeat: true, delay: 3 })}
             />
           </span>
         </div>
         <div className='opening-screen__box' ref={boxRef1}>
-          [01]
+          <span className='box'>[01]</span>
         </div>
         <div className='opening-screen__box2' ref={boxRef2}>
-          [02]
+          <span className='box'>[02]</span>
         </div>
         <div className='opening-screen__box3' ref={boxRef3}>
-          [03]
+          <span className='box'>[03]</span>
         </div>
       </div>
     </div>

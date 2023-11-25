@@ -1,7 +1,7 @@
-import "./App.css";
-import OpeningScreen from "./components/openingScreen/OpeningScreen";
-import React from "react";
-import gsap from "gsap";
+import './App.css';
+import OpeningScreen from './components/openingScreen/OpeningScreen';
+import React from 'react';
+import gsap from 'gsap';
 
 let tl = gsap.timeline();
 
@@ -9,12 +9,12 @@ function App() {
   const mainRef = React.useRef();
 
   React.useLayoutEffect(() => {
-    const gsapMainRef = gsap.utils.selector(mainRef.current)("div");
+    const gsapMainRef = gsap.utils.selector(mainRef.current)('div');
     let ctx = gsap.context(() => {
       tl.from(gsapMainRef, {
-        ease: "power4.out",
+        ease: 'power4.out',
         opacity: 0,
-        delay: 10,
+        delay: 8,
         duration: 5,
       });
     });
@@ -23,14 +23,22 @@ function App() {
 
   return (
     <>
-      <div className={"app__opening-screen-wrapper"}>
+      <div className={'app__opening-screen-wrapper'}>
         <OpeningScreen />
       </div>
-      <div className={"app__main-wrapper"} ref={mainRef}>
-        <div>Hello world</div>
-        {/* 
-          probably want the same skewed text from bottom with scramble (scramble once)
-        */}
+      <div className={'app__main-wrapper'} ref={mainRef}>
+        <div className={'main__content'}>
+          <h2 className={'main__heading'}>patrick bornay</h2>
+          <p>
+            I do stuff on the internet, currently a software engineer working on
+            frontend web app migrations, UI designs, API development and other
+            stuff
+          </p>
+          <p>You can reach me at:</p>
+          <li>linkedIn</li>
+          <li>insta</li>
+          <li>github</li>
+        </div>
       </div>
     </>
   );
