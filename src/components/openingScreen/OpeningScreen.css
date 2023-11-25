@@ -12,7 +12,7 @@ body {
 }
 
 .opening-screen__box {
-  font-size: 4.0rem;
+  font-size: 3.0rem;
   position: absolute;
   height: 100%;
   width: 33.333%;
@@ -23,7 +23,7 @@ body {
   overflow: hidden;
 }
 .opening-screen__box2 {
-  font-size: 4.0rem;
+  font-size: 3.0rem;
   position: absolute;
   height: 100%;
   width: 33.333%;
@@ -34,7 +34,7 @@ body {
   overflow: hidden;
 }
 .opening-screen__box3 {
-  font-size: 4.0rem;
+  font-size: 3.0rem;
   position: absolute;
   height: 100%;
   width: 33.333%;
@@ -45,9 +45,8 @@ body {
   overflow: hidden;
 }
 .opening-screen__first {
-  font-size: 4.0rem;
+  font-size: 3.0rem;
   line-height: 0.8rem;
-  /* font-weight: 700; */
   z-index: 10;
   color: white;
   mix-blend-mode: difference;
@@ -63,9 +62,8 @@ body {
 }
 
 .opening-screen__middle {
-  font-size: 4.0rem;
+  font-size: 3.0rem;
   line-height: 0.8rem;
-  /* font-weight: 700; */
   z-index: 10;
   color: white;
   mix-blend-mode: difference;
@@ -81,9 +79,8 @@ body {
 }
 
 .opening-screen__last {
-  font-size: 4.0rem;
+  font-size: 3.0rem;
   line-height: 0.8rem;
-  /* font-weight: 700; */
   z-index: 10;
   color: white;
   mix-blend-mode: difference;
@@ -101,7 +98,6 @@ body {
 .opening-screen__web {
   font-size: 1.5rem;
   line-height: 0.2rem;
-  /* font-weight: 700; */
   z-index: 10;
   color: white;
   mix-blend-mode: difference;

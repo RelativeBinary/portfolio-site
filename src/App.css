@@ -1,5 +1,6 @@
-.app__main {
+.app__main-wrapper {
   color: white;
+  font-size: 2rem;
 }
 
 .app__opening-screen-wrapper {
