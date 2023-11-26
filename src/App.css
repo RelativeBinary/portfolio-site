@@ -1,9 +1,10 @@
-@import url('https://fonts.cdnfonts.com/css/redaction?styles=81795');
-@import url('https://fonts.cdnfonts.com/css/redaction?styles=81800');
+@import url('https://fonts.cdnfonts.com/css/sf-pixelate?styles=9026');
+/* @import url('https://fonts.cdnfonts.com/css/redaction?styles=81795');
+@import url('https://fonts.cdnfonts.com/css/redaction?styles=81800'); */
 @import url('https://fonts.googleapis.com/css?family=Inter');
 
 body {
-  font-family: 'Redaction 35','Redaction 50', 'Inter';
+  font-family: 'SF Pixelate','Redaction 35','Redaction 50', 'Inter';
   font-weight: 100;
   background-color: black;
 }
@@ -14,13 +15,14 @@ body {
   font-weight: 100;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -40vh;
   width: 800px;
+  left: 0;
+  right: 0;
+  position: absolute;
 }
 
 @media screen and (max-width: 1000px) {
   .app__main-wrapper {
-    margin-top: -40vh;
     width: 600px;
   }
 }
@@ -33,40 +35,19 @@ body {
 
 @media screen and (max-width: 570px) {
   .app__main-wrapper {
-    margin-top: -44vh;
     width: 400px;
-  }
-  .main__heading {
-    font-size: 2rem;
-  }
-  .main__content {
-    font-size: 1.6rem;
   }
 }
 
 @media screen and (max-width: 440px) {
   .app__main-wrapper {
-    margin-top: -48vh;
     width: 330px;
-  }
-  .main__heading {
-    font-size: 2rem;
-  }
-  .main__content {
-    font-size: 1.6rem;
   }
 }
 
 @media screen and (max-width: 370px) {
   .app__main-wrapper {
-    margin-top: -48vh;
     width: 280px;
-  }
-  .main__heading {
-    font-size: 2rem;
-  }
-  .main__content {
-    font-size: 1.6rem;
   }
 }
 
