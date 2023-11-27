@@ -18,6 +18,7 @@ body {
   width: 800px;
   left: 0;
   right: 0;
+  top: 15vh;
   position: absolute;
 }
 
