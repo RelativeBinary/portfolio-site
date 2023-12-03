@@ -6,3 +6,11 @@
 .main__content {
   font-size: 1rem;
 }
+
+.main__link {
+  color: white;
+}
+
+.main__link:hover {
+  color: limegreen;
+}

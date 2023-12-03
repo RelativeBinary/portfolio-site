@@ -35,6 +35,7 @@ export default function Main() {
       <p>You can reach me at:</p>
       <li>
         <a
+          className='main__link'
           href='https://www.linkedin.com/in/patrick-bornay-2ab4b013b/'
           target='_blank'
           rel='noreferrer'
@@ -44,6 +45,7 @@ export default function Main() {
       </li>
       <li>
         <a
+          className='main__link'
           href='https://www.instagram.com/patrickbornay/'
           target='_blank'
           rel='noreferrer'
@@ -53,6 +55,7 @@ export default function Main() {
       </li>
       <li>
         <a
+          className='main__link'
           href='https://github.com/RelativeBinary'
           target='_blank'
           rel='noreferrer'

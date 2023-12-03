@@ -67,7 +67,7 @@ export default function OpeningScreen() {
         )
         .to(
           designSpanRefs,
-          0.8,
+          1.4,
           {
             x: -100,
             autoAlpha: 0,

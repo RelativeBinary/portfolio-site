@@ -4,17 +4,9 @@
 @import url('https://fonts.googleapis.com/css?family=Inter');
 
 body {
-  font-family: 'SF Pixelate','Redaction 35','Redaction 50', 'Inter';
+  font-family: 'SF Pixelate', 'Redaction 35', 'Redaction 50', 'Inter';
   font-weight: 100;
   background-color: black;
-}
-
-a {
-  color: white;
-}
-
-a:hover {
-  color: blue;
 }
 
 .app__main-wrapper {
@@ -28,6 +20,7 @@ a:hover {
   right: 0;
   top: 15vh;
   position: absolute;
+  z-index: 10;
 }
 
 @media screen and (max-width: 1000px) {
