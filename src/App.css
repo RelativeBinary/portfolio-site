@@ -9,6 +9,14 @@ body {
   background-color: black;
 }
 
+a {
+  color: white;
+}
+
+a:hover {
+  color: blue;
+}
+
 .app__main-wrapper {
   color: white;
   font-size: 1.8rem;

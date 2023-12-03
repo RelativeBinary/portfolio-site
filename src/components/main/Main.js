@@ -34,21 +34,39 @@ export default function Main() {
       </p>
       <p>You can reach me at:</p>
       <li>
-        <a href='#'>linkedIn</a>
+        <a
+          href='https://www.linkedin.com/in/patrick-bornay-2ab4b013b/'
+          target='_blank'
+          rel='noreferrer'
+        >
+          linkedIn
+        </a>
       </li>
       <li>
-        <a href='#'>insta</a>
+        <a
+          href='https://www.instagram.com/patrickbornay/'
+          target='_blank'
+          rel='noreferrer'
+        >
+          insta
+        </a>
       </li>
       <li>
-        <a href='#'>github</a>
+        <a
+          href='https://github.com/RelativeBinary'
+          target='_blank'
+          rel='noreferrer'
+        >
+          github
+        </a>
       </li>
 
       <p>Tech stack:</p>
       <li>ReactJS with Typescript, testing with Jest and Mirage</li>
       <li>Grails & Micronaut with Java/Groovy, testing with Spock</li>
 
-      <p>Stuff i've gotten to a somewhat 'finished' state:</p>
-      <li>WAM calculator (ReactJS app hosted through githup pages)</li>
+      <p>Will add stuff i've gotten to a somewhat 'finished' state soon...</p>
+      {/* <li>WAM calculator (ReactJS app hosted through githup pages)</li> */}
     </div>
   );
 }
