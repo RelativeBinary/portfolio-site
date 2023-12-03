@@ -48,26 +48,26 @@ export default function OpeningScreen() {
         ease: 'power4.out',
         duration: 1.5,
       })
-        .to(boxRefs, 1.5, {
+        .to(boxRefs, 1.0, {
           height: 0,
           ease: 'power2.inOut',
           stagger: 0.1,
-          duration: 3.5,
+          duration: 2.5,
         })
         .to(
           textSpanRefs,
-          2.0,
+          0.6,
           {
             x: 100,
             autoAlpha: 0,
             stagger: 0.2,
             ease: 'expo.in',
           },
-          '-=1.2'
+          '-=1.0'
         )
         .to(
           designSpanRefs,
-          2.3,
+          0.8,
           {
             x: -100,
             autoAlpha: 0,
@@ -78,14 +78,14 @@ export default function OpeningScreen() {
         )
         .to(
           lastSpanRefs,
-          2.5,
+          1.5,
           {
             x: 100,
             autoAlpha: 0,
             stagger: 0.2,
             ease: 'expo.in',
           },
-          '-=1.5'
+          '-=1.0'
         );
     });
     return () => ctx.revert(); // <- cleanup!
