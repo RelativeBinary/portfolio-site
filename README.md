@@ -12,7 +12,8 @@ It's the hellish project that nearly all web devs experience at one point. Hopef
 
 #### TODO
 
-- Get links working
-- Plan out / add images and gifs
-- Add projects (NextJS app, NodeJS app, Creative stuff)
-- Improve content display (headings and sub headings font sizes, spacing between sections)
+- [x] Get links working
+- [ ] Add tab styling
+- [x] Plan out / add images and gifs (thinking of adding cycling resolution gifs of the sun / moon)
+- [ ] Add projects (NextJS app, NodeJS app, Creative stuff)
+- [ ] Improve content display (headings and sub headings font sizes, spacing between sections)

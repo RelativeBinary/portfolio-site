@@ -5,6 +5,7 @@
 
 .main__content {
   font-size: 1rem;
+  overflow: hidden;
 }
 
 .main__link {
@@ -13,4 +14,14 @@
 
 .main__link:hover {
   color: limegreen;
+}
+
+.main__pfp-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.main__pfp {
+  width: 100%;
+  transform: translateY(-70%) translateX(-10%) scale(3.5);
 }

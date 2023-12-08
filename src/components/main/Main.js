@@ -1,6 +1,7 @@
 import React from 'react';
 import './Main.css';
 import { RandomReveal } from 'react-random-reveal';
+import pfp2 from '../../resources/pfp-2.jpg';
 
 export default function Main() {
   return (
@@ -32,6 +33,11 @@ export default function Main() {
         frontend web app migrations, UI designs, API development and other
         stuff.
       </p>
+
+      <div className={'main__pfp-wrapper'}>
+        <img src={pfp2} alt={'pfp2'} className={'main__pfp'} />
+      </div>
+
       <p>You can reach me at:</p>
       <li>
         <a
