@@ -9,11 +9,12 @@ It's the hellish project that nearly all web devs experience at one point. Hopef
 - Make name heading scramble text
 - Add some drafting / blue print style margins to the page?
 - make it look like space? pixel style representation of space. simple pixels, star pixels, glowing effects.
+- 3D gifs look a bit out of place...
 
 #### TODO
 
 - [x] Get links working
 - [ ] Add tab styling
-- [x] Plan out / add images and gifs (thinking of adding cycling resolution gifs of the sun / moon)
+- [x] Plan out / add images and gifs (thinking of adding cycling resolution gifs of the sun / moon / old film photos of the horizon / sunset)
 - [ ] Add projects (NextJS app, NodeJS app, Creative stuff)
 - [ ] Improve content display (headings and sub headings font sizes, spacing between sections)

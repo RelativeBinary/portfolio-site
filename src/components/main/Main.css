@@ -3,6 +3,11 @@
   font-size: 2rem;
 }
 
+.main__heading-gif {
+  width: 40px;
+  height: fit-content;
+}
+
 .main__content {
   font-size: 1rem;
   overflow: hidden;
@@ -21,7 +26,13 @@
   width: 100%;
 }
 
-.main__pfp {
-  width: 100%;
+.main__pfp-2 {
+  width: 50%;
   transform: translateY(-70%) translateX(-10%) scale(3.5);
+}
+
+.main__pfp-3 {
+  width: 40%;
+  margin-bottom: -20%;
+  transform: translateY(-30%) translateX(60%) scale(1);
 }

@@ -2,6 +2,8 @@ import React from 'react';
 import './Main.css';
 import { RandomReveal } from 'react-random-reveal';
 import pfp2 from '../../resources/pfp-2.jpg';
+import pfp3 from '../../resources/pfp-3.jpeg';
+import enchantmentTable from '../../resources/enchantment-table.gif';
 
 export default function Main() {
   return (
@@ -26,6 +28,7 @@ export default function Main() {
           onComplete={() => ({ shouldRepeat: true, delay: 3 })}
         />
         ck bornay
+        {/* <img className={'main__heading-gif'} src={enchantmentTable} alt='gif' /> */}
       </span>
 
       <p>
@@ -35,10 +38,10 @@ export default function Main() {
       </p>
 
       <div className={'main__pfp-wrapper'}>
-        <img src={pfp2} alt={'pfp2'} className={'main__pfp'} />
+        <img src={pfp2} alt={'pfp3'} className={'main__pfp-2'} />
       </div>
 
-      <p>You can reach me at:</p>
+      <p>You can reach me on:</p>
       <li>
         <a
           className='main__link'
@@ -74,7 +77,7 @@ export default function Main() {
       <li>ReactJS with Typescript, testing with Jest and Mirage</li>
       <li>Grails & Micronaut with Java/Groovy, testing with Spock</li>
 
-      <p>Will add stuff i've gotten to a somewhat 'finished' state soon...</p>
+      {/* <p>Will add stuff i've gotten to a somewhat 'finished' state soon...</p> */}
       {/* <li>WAM calculator (ReactJS app hosted through githup pages)</li> */}
     </div>
   );
