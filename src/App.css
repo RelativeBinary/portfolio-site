@@ -7,6 +7,10 @@ body {
   font-family: 'SF Pixelate', 'Redaction 35', 'Redaction 50', 'Inter';
   font-weight: 100;
   background-color: black;
+  background-image: url('./resources/sun3.jpg');
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
 }
 
 .app__main-wrapper {

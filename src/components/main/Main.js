@@ -4,6 +4,7 @@ import { RandomReveal } from 'react-random-reveal';
 import pfp2 from '../../resources/pfp-2.jpg';
 import pfp3 from '../../resources/pfp-3.jpeg';
 import enchantmentTable from '../../resources/enchantment-table.gif';
+import sky from '../../resources/sky.jpg';
 
 export default function Main() {
   return (
