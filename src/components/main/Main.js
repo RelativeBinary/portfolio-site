@@ -29,7 +29,7 @@ export default function Main() {
           characterSet={['I', '!', 'i']}
           onComplete={() => ({ shouldRepeat: true, delay: 3 })}
         />
-        ck bornay
+        ck
         {/* <img className={'main__heading-gif'} src={enchantmentTable} alt='gif' /> */}
       </span>
 
