@@ -3,6 +3,7 @@ import './Main.css';
 import { RandomReveal } from 'react-random-reveal';
 import pfp2 from '../../resources/pfp-2.jpg';
 import pfp3 from '../../resources/pfp-3.jpeg';
+import pfp4 from '../../resources/pfp-4.jpg';
 import enchantmentTable from '../../resources/enchantment-table.gif';
 import sky from '../../resources/sky.jpg';
 
@@ -39,7 +40,7 @@ export default function Main() {
       </p>
 
       <div className={'main__pfp-wrapper'}>
-        <img src={pfp2} alt={'pfp3'} className={'main__pfp-2'} />
+        <img src={pfp2} alt={'pfp'} className={'main__pfp-4'} />
       </div>
 
       <p>You can reach me on:</p>

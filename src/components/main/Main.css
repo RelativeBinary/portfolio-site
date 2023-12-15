@@ -39,3 +39,8 @@
   margin-bottom: -20%;
   transform: translateY(-30%) translateX(60%) scale(1);
 }
+
+.main__pfp-4 {
+  width: 70%;
+  transform: translateY(-40%) translateX(20%) scale(1.5);
+}
