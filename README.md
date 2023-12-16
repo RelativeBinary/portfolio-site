@@ -19,3 +19,4 @@ It's the hellish project that nearly all web devs experience at one point. Hopef
 - [x] Plan out / add images and gifs (thinking of adding cycling resolution gifs of the sun / moon / old film photos of the horizon / sunset)
 - [ ] Add projects (NextJS app, NodeJS app, Creative stuff)
 - [ ] Improve content display (headings and sub headings font sizes, spacing between sections)
+- [ ] add 'library' which opens in a new tab (has a last updated date too)
