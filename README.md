@@ -11,6 +11,7 @@ It's the hellish project that nearly all web devs experience at one point. Hopef
 - make it look like space? pixel style representation of space. simple pixels, star pixels, glowing effects.
 - 3D gifs look a bit out of place...
 - Could also do a blue sky background image with a slightly noisy filter. (Like in that porter music video)
+- still not sure on the bacckground image, could improve the opening animation
 
 #### TODO
 
@@ -19,4 +20,5 @@ It's the hellish project that nearly all web devs experience at one point. Hopef
 - [x] Plan out / add images and gifs (thinking of adding cycling resolution gifs of the sun / moon / old film photos of the horizon / sunset)
 - [ ] Add projects (NextJS app, NodeJS app, Creative stuff)
 - [ ] Improve content display (headings and sub headings font sizes, spacing between sections)
-- [ ] add 'library' which opens in a new tab (has a last updated date too)
+- [ ] add 'library' or 'the common place'? which opens in a new tab (has a last updated date too)
+- [ ] adjust fonts for mobile
