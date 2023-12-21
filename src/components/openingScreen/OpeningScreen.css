@@ -4,10 +4,11 @@
 
 .box {
   padding-left: 5px;
+  padding-top: 2vh;
+  font-size: 1.5rem;
 }
 
 .opening-screen__box {
-  font-size: 1rem;
   position: absolute;
   height: 100%;
   width: 33.333%;
@@ -19,7 +20,6 @@
 }
 
 .opening-screen__box2 {
-  font-size: 1rem;
   position: absolute;
   height: 100%;
   width: 33.333%;
@@ -29,8 +29,8 @@
   right: 0;
   overflow: hidden;
 }
+
 .opening-screen__box3 {
-  font-size: 1rem;
   position: absolute;
   height: 100%;
   width: 33.333%;
@@ -40,9 +40,13 @@
   right: 0;
   overflow: hidden;
 }
-.opening-screen__first {
-  font-size: 2rem;
+
+.text {
+  font-size: 1.2rem;
   line-height: 1.8rem;
+}
+
+.opening-screen__first {
   z-index: 10;
   color: white;
   mix-blend-mode: difference;
@@ -51,15 +55,13 @@
   overflow: hidden;
   top: 20vh;
 }
-/* add media queries */
+
 .opening-screen__first span {
   position: absolute;
   left: 15%;
 }
 
 .opening-screen__middle {
-  font-size: 2rem;
-  line-height: 1.8rem;
   z-index: 10;
   color: white;
   mix-blend-mode: difference;
@@ -75,8 +77,6 @@
 }
 
 .opening-screen__last {
-  font-size: 2rem;
-  line-height: 1.8rem;
   z-index: 10;
   color: white;
   mix-blend-mode: difference;
@@ -89,23 +89,6 @@
 .opening-screen__last span {
   position: absolute;
   left: 40%;
-}
-
-.opening-screen__web {
-  font-size: 1.5rem;
-  line-height: 0.2rem;
-  z-index: 10;
-  color: white;
-  mix-blend-mode: difference;
-  height: 20px;
-  position: relative;
-  overflow: hidden;
-  top: 30vh;
-}
-
-.opening-screen__web span {
-  position: absolute;
-  left: 25%;
 }
 
 .break {

@@ -1,3 +1,12 @@
+li::before {
+  content: '> ';
+}
+
+li {
+  padding-top: 5px;
+  list-style-type: none;
+}
+
 .main__heading {
   line-height: 2rem;
   font-size: 2rem;
@@ -9,7 +18,7 @@
 }
 
 .main__content {
-  font-size: 1rem;
+  font-size: 0.9rem;
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
@@ -35,7 +44,7 @@
 }
 
 .main__pfp-3 {
-  width: 40%;
+  width: 45%;
   margin-bottom: -20%;
   transform: translateY(-30%) translateX(60%) scale(1);
 }

@@ -40,7 +40,7 @@ export default function Main() {
       </p>
 
       <div className={'main__pfp-wrapper'}>
-        <img src={pfp2} alt={'pfp'} className={'main__pfp-4'} />
+        <img src={pfp3} alt={'pfp'} className={'main__pfp-3'} />
       </div>
 
       <p>You can reach me on:</p>

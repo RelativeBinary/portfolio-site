@@ -94,7 +94,7 @@ export default function OpeningScreen() {
   return (
     <div className='opening-screen__wrapper'>
       <div>
-        <div className='opening-screen__first' ref={textRef1}>
+        <div className='opening-screen__first text' ref={textRef1}>
           <span>
             <RandomReveal
               isPlaying
@@ -106,7 +106,7 @@ export default function OpeningScreen() {
             />
           </span>
         </div>
-        <div className='opening-screen__first' ref={textRef2}>
+        <div className='opening-screen__first text' ref={textRef2}>
           <span>
             <RandomReveal
               isPlaying
@@ -118,7 +118,7 @@ export default function OpeningScreen() {
             />
           </span>
         </div>
-        <div className='opening-screen__first' ref={textRef3}>
+        <div className='opening-screen__first text' ref={textRef3}>
           <span>
             <RandomReveal
               isPlaying
@@ -131,7 +131,7 @@ export default function OpeningScreen() {
           </span>
         </div>
         {/* ==================================================== */}
-        <div className='opening-screen__middle break' ref={textRef4}>
+        <div className='opening-screen__middle break text' ref={textRef4}>
           <span>
             <RandomReveal
               isPlaying
@@ -143,7 +143,7 @@ export default function OpeningScreen() {
             />
           </span>
         </div>
-        <div className='opening-screen__middle' ref={textRef5}>
+        <div className='opening-screen__middle text' ref={textRef5}>
           <span>
             <RandomReveal
               isPlaying
@@ -155,7 +155,7 @@ export default function OpeningScreen() {
             />
           </span>
         </div>
-        <div className='opening-screen__middle' ref={textRef6}>
+        <div className='opening-screen__middle text' ref={textRef6}>
           <span>
             <RandomReveal
               isPlaying
@@ -168,7 +168,7 @@ export default function OpeningScreen() {
           </span>
         </div>
         {/* ==================================================== */}
-        <div className='opening-screen__last break' ref={textRef7}>
+        <div className='opening-screen__last break text' ref={textRef7}>
           <span>
             <RandomReveal
               isPlaying
@@ -180,7 +180,7 @@ export default function OpeningScreen() {
             />
           </span>
         </div>
-        <div className='opening-screen__last' ref={textRef8}>
+        <div className='opening-screen__last text' ref={textRef8}>
           <span>
             <RandomReveal
               isPlaying
@@ -192,7 +192,7 @@ export default function OpeningScreen() {
             />
           </span>
         </div>
-        <div className='opening-screen__last' ref={textRef9}>
+        <div className='opening-screen__last text' ref={textRef9}>
           <span>
             <RandomReveal
               isPlaying
