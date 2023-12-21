@@ -34,7 +34,7 @@ export default function Main() {
       </span>
 
       <p>
-        I do stuff on the internet. Currently a software engineer working on
+        I do stuff on the internet! Currently a software engineer working on
         frontend web app migrations, UI designs, API development and other
         stuff.
       </p>
@@ -43,7 +43,7 @@ export default function Main() {
         <img src={pfp3} alt={'pfp'} className={'main__pfp-3'} />
       </div>
 
-      <p>You can reach me on:</p>
+      <p className='main__list-title'>You can reach me on:</p>
       <li>
         <a
           className='main__link'
@@ -75,7 +75,7 @@ export default function Main() {
         </a>
       </li>
 
-      <p>Tech stack:</p>
+      <p className='main__list-title'>Tech stack:</p>
       <li>ReactJS with Typescript, testing with Jest and Mirage</li>
       <li>Grails & Micronaut with Java/Groovy, testing with Spock</li>
 

@@ -100,7 +100,7 @@ export default function OpeningScreen() {
               isPlaying
               duration={1}
               revealDuration={1.5}
-              characters='welcome! welcome! welcome!'
+              characters='welcome!'
               characterSet={['?', '>', '<', '$', '%', '#', '*', '!']}
               onComplete={() => ({ shouldRepeat: true, delay: 3 })}
             />
@@ -112,7 +112,7 @@ export default function OpeningScreen() {
               isPlaying
               duration={1}
               revealDuration={1.5}
-              characters='welcome! welcome! welcome!'
+              characters='welcome!'
               characterSet={['?', '>', '<', '$', '%', '#', '*', '!']}
               onComplete={() => ({ shouldRepeat: true, delay: 3 })}
             />
@@ -124,7 +124,7 @@ export default function OpeningScreen() {
               isPlaying
               duration={1}
               revealDuration={1.5}
-              characters='welcome! welcome! welcome!'
+              characters='welcome!'
               characterSet={['?', '>', '<', '$', '%', '#', '*', '!']}
               onComplete={() => ({ shouldRepeat: true, delay: 3 })}
             />

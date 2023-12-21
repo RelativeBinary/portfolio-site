@@ -9,7 +9,7 @@ li {
 
 .main__heading {
   line-height: 2rem;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .main__heading-gif {
@@ -23,6 +23,10 @@ li {
   background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
   padding: 1rem 0.5rem;
+}
+
+.main__list-title {
+  margin-bottom: 0;
 }
 
 .main__link {

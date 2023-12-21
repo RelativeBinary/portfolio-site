@@ -4,8 +4,9 @@
 
 .box {
   padding-left: 5px;
-  padding-top: 2vh;
   font-size: 1.5rem;
+  position: relative;
+  top: 5px;
 }
 
 .opening-screen__box {
@@ -58,7 +59,7 @@
 
 .opening-screen__first span {
   position: absolute;
-  left: 15%;
+  left: 35%;
 }
 
 .opening-screen__middle {
