@@ -5,14 +5,14 @@
 .box {
   padding-left: 5px;
   font-size: 1.5rem;
-  position: relative;
+  overflow: hidden;
   top: 5px;
 }
 
 .opening-screen__box {
   position: absolute;
   height: 100%;
-  width: 33.333%;
+  width: 34%;
   background: white;
   bottom: 0;
   left: 0;
@@ -23,7 +23,7 @@
 .opening-screen__box2 {
   position: absolute;
   height: 100%;
-  width: 33.333%;
+  width: 34%;
   background: white;
   bottom: 0;
   left: 33.33%;
@@ -34,7 +34,7 @@
 .opening-screen__box3 {
   position: absolute;
   height: 100%;
-  width: 33.333%;
+  width: 34%;
   background: white;
   bottom: 0;
   left: 66.66%;

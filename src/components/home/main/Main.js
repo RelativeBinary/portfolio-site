@@ -1,11 +1,12 @@
 import React from 'react';
 import './Main.css';
 import { RandomReveal } from 'react-random-reveal';
-import pfp2 from '../../resources/pfp-2.jpg';
-import pfp3 from '../../resources/pfp-3.jpeg';
-import pfp4 from '../../resources/pfp-4.jpg';
-import enchantmentTable from '../../resources/enchantment-table.gif';
-import sky from '../../resources/sky.jpg';
+import pfp2 from '../../../resources/pfp-2.jpg';
+import pfp3 from '../../../resources/pfp-3.jpeg';
+import pfp4 from '../../../resources/pfp-4.jpg';
+import enchantmentTable from '../../../resources/enchantment-table.gif';
+import sky from '../../../resources/sky.jpg';
+import { Link } from 'react-router-dom';
 
 export default function Main() {
   return (
@@ -43,7 +44,7 @@ export default function Main() {
         <img src={pfp3} alt={'pfp'} className={'main__pfp-3'} />
       </div>
 
-      <p className='main__list-title'>You can reach me on:</p>
+      <p className='main__list-title'>Clicky things:</p>
       <li>
         <a
           className='main__link'
@@ -74,6 +75,11 @@ export default function Main() {
           github
         </a>
       </li>
+      {/* <li>
+        <Link to='/common-place' target='_blank'>
+          common place
+        </Link>
+      </li> */}
 
       <p className='main__list-title'>Tech stack:</p>
       <li>ReactJS with Typescript, testing with Jest and Mirage</li>

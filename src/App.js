@@ -1,6 +1,6 @@
 import './App.css';
-import OpeningScreen from './components/openingScreen/OpeningScreen';
-import Main from './components/main/Main';
+import OpeningScreen from './components/home/openingScreen/OpeningScreen';
+import Main from './components/home/main/Main';
 import React from 'react';
 import gsap from 'gsap';
 
