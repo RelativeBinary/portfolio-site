@@ -3,6 +3,7 @@ import OpeningScreen from './components/home/openingScreen/OpeningScreen';
 import Main from './components/home/main/Main';
 import React from 'react';
 import gsap from 'gsap';
+import pfp2 from './resources/pfp-2.jpg';
 
 let tl = gsap.timeline();
 
@@ -30,6 +31,7 @@ function App() {
       <div className={'app__main-wrapper'} ref={mainRef}>
         <Main />
       </div>
+      <img src={pfp2} alt={'floating-pic-1'} className={'floating-pic-1'} />
     </>
   );
 }
