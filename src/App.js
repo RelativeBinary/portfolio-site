@@ -31,7 +31,6 @@ function App() {
       <div className={'app__main-wrapper'} ref={mainRef}>
         <Main />
       </div>
-      <img src={pfp2} alt={'floating-pic-1'} className={'floating-pic-1'} />
     </>
   );
 }

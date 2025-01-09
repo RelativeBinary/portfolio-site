@@ -58,11 +58,11 @@ export default function Main() {
       <li>
         <a
           className='main__link'
-          href='https://www.instagram.com/patrickbornay/'
+          href='https://substack.com/@patbornay'
           target='_blank'
           rel='noreferrer'
         >
-          insta
+          substack
         </a>
       </li>
       <li>
