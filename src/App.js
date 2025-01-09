@@ -16,7 +16,7 @@ function App() {
       tl.from(gsapMainRef, {
         ease: 'power4.out',
         opacity: 0,
-        delay: 6,
+        delay: 4.5,
         duration: 5,
       });
     });
