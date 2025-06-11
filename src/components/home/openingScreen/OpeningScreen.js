@@ -137,7 +137,7 @@ export default function OpeningScreen() {
               isPlaying
               duration={1}
               revealDuration={1.5}
-              characters='to my website'
+              characters='to my website!'
               characterSet={['?', '>', '<', '$', '%', '#', '*', '!']}
               onComplete={() => ({ shouldRepeat: true, delay: 3 })}
             />
@@ -149,7 +149,7 @@ export default function OpeningScreen() {
               isPlaying
               duration={1}
               revealDuration={1.5}
-              characters='to my website'
+              characters='to my website!'
               characterSet={['?', '>', '<', '$', '%', '#', '*', '!']}
               onComplete={() => ({ shouldRepeat: true, delay: 3 })}
             />
@@ -161,7 +161,7 @@ export default function OpeningScreen() {
               isPlaying
               duration={1}
               revealDuration={1.5}
-              characters='to my website'
+              characters='to my website!'
               characterSet={['?', '>', '<', '$', '%', '#', '*', '!']}
               onComplete={() => ({ shouldRepeat: true, delay: 3 })}
             />
@@ -174,7 +174,7 @@ export default function OpeningScreen() {
               isPlaying
               duration={1}
               revealDuration={1.5}
-              characters='uhh.. okay?'
+              characters='enjoy!'
               characterSet={['?', '>', '<', '$', '%', '#', '*', '!']}
               onComplete={() => ({ shouldRepeat: true, delay: 3 })}
             />
@@ -186,7 +186,7 @@ export default function OpeningScreen() {
               isPlaying
               duration={1}
               revealDuration={1.5}
-              characters='uhh.. okay?'
+              characters='enjoy!'
               characterSet={['?', '>', '<', '$', '%', '#', '*', '!']}
               onComplete={() => ({ shouldRepeat: true, delay: 3 })}
             />
@@ -198,7 +198,7 @@ export default function OpeningScreen() {
               isPlaying
               duration={1}
               revealDuration={1.5}
-              characters='uhh.. okay?'
+              characters='enjoy!'
               characterSet={['?', '>', '<', '$', '%', '#', '*', '!']}
               onComplete={() => ({ shouldRepeat: true, delay: 3 })}
             />

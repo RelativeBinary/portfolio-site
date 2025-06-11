@@ -35,16 +35,14 @@ export default function Main() {
       </span>
 
       <p>
-        I do stuff on the internet! Currently a software engineer working on
-        frontend web app migrations, UI designs, API development and other
-        stuff.
+        software engineer / web developer.<br/> 
       </p>
 
       <div className={'main__pfp-wrapper'}>
         <img src={pfp2} alt={'pfp'} className={'main__pfp-2'} />
       </div>
 
-      <p className='main__list-title'>Clicky things:</p>
+      <h4 className='main__list-title'>clicky things:</h4>
       <li>
         <a
           className='main__link'
@@ -52,7 +50,7 @@ export default function Main() {
           target='_blank'
           rel='noreferrer'
         >
-          linkedIn
+          linkedin
         </a>
       </li>
       <li>
@@ -81,9 +79,39 @@ export default function Main() {
         </Link>
       </li> */}
 
-      <p className='main__list-title'>Tech stack:</p>
-      <li>ReactJS with Typescript, testing with Jest and Mirage</li>
-      <li>Grails & Micronaut with Java/Groovy, testing with Spock</li>
+      <h4 className='main__list-title'>Projects:</h4>   
+      <li>
+        <a
+          className='main__link'
+          href='https://kanban-boilerplate.vercel.app/'
+          target='_blank'
+          rel='noreferrer'
+        >
+          CRUD kanban webapp (ReactJS with TS, NodeJS with TS, Supabase, Render)
+        </a>
+      </li>
+
+      <h4 className='main__list-title'>learnings:</h4>   
+      <li>
+        <a
+          className='main__link'
+          href='https://patbornay.substack.com/p/uiux-balancing-cost-and-functionality'
+          target='_blank'
+          rel='noreferrer'
+        >
+          UI/UX: balancing cost and functionality - refresh button
+        </a>
+      </li>
+      <li>
+        <a
+          className='main__link'
+          href='https://patbornay.substack.com/p/react-notes-incorrect-use-of-useeffect'
+          target='_blank'
+          rel='noreferrer'
+        >
+          react notes - incorrect use of useEffect when using react query
+        </a>
+      </li>
 
       {/* <p>Will add stuff i've gotten to a somewhat 'finished' state soon...</p> */}
       {/* <li>WAM calculator (ReactJS app hosted through githup pages)</li> */}
