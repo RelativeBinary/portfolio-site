@@ -79,7 +79,7 @@ export default function Main() {
         </Link>
       </li> */}
 
-      <h4 className='main__list-title'>Projects:</h4>   
+      <h4 className='main__list-title'>projects:</h4>   
       <li>
         <a
           className='main__link'
@@ -87,7 +87,7 @@ export default function Main() {
           target='_blank'
           rel='noreferrer'
         >
-          CRUD kanban webapp (ReactJS with TS, NodeJS with TS, Supabase, Render)
+          crud kanban webapp (reactjs with ts, nodejs with ts, supabase, render)
         </a>
       </li>
 
@@ -99,7 +99,7 @@ export default function Main() {
           target='_blank'
           rel='noreferrer'
         >
-          UI/UX: balancing cost and functionality - refresh button
+          ui/ux: balancing cost and functionality - refresh button
         </a>
       </li>
       <li>
@@ -109,7 +109,7 @@ export default function Main() {
           target='_blank'
           rel='noreferrer'
         >
-          react notes - incorrect use of useEffect when using react query
+          react notes - incorrect use of useeffect when using react query
         </a>
       </li>
 
